@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 5px 300px;
+    /* box-shadow: 0px 0px 5px 0px; */
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.1);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.men{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 63px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 10px ;
+    border-radius: 30px;
+    height: 30px;
+}
+input{
+    width: 100%;
+    display: flex;
+    border: none;
+    padding: 6px;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+}
+.box3 img{
+    padding: 2px;
+}
+.caption{
+    display: flex;
+    gap: 200px;
+    padding: 0 4px;
+}
+.caption2{
+    display: flex;
+    gap: 428px;
+    padding: 0 4px;
+}
+.home{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+}
+.home p{
+    padding: 5px 0;
+}
+.home2{
+    display: flex;
+    gap: 5px;
+    padding: 10px 0;
+}
+.home2 img{
+    border-radius: 5px;
+    position: relative;
+}
+.cap{
+    position: relative;
+}
+.story{
+    position: absolute;
+    bottom: 10px;
+    color: white;
+}
+.home3{
+    display: flex;
+    gap: 67px;
+    position: absolute;
+    top: 90px;
+}
+main{
+    display: flex;
+}
+.wrapper1{
+    width: 350px;
+}
+.wrapper2{
+    background-color: gainsboro;
+    padding: 0 20px;
+    width: 600px;
+    height: 650px;
+}
+.wrapper3{
+    width: 300px;
+}
+.suggest img{
+    padding: 10px 0;
+}
+.container2{
+    padding: 5px 50px;
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: white;
+    height: 40px;
+    padding: 5px;
+    border-radius: 4px; 
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.1);
+}
+.wrap p{
+    background-color: gainsboro;
+    width: 340px;
+    text-align: center;
+    padding: 5px;
+}
+.wrap2 {
+    background-color: white;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+.fun{
+    padding: 0 5px;
+}
+.tom{
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+    border-radius: 2px;
+}
+.caption3{
+    margin: 20px 0;
+}
+.henri{
+    margin: 7px 0;
+}
+
+#hen{
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+}
+.henri2{
+    display: flex;
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.1);
+    gap: 10px;
+    height: 50px;
+    padding: 5px 5px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.henri2 p{
+    padding: 5px;
+}
+
+.dennis{
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+}
+.dennis p{
+    display: flex;
+    font-size: 15px;
+    padding: 5px;
+}
+.dennis img {
+    border-radius: 20px;
+}
+.wrapper3{
+    padding: 0 10px;
+}
+.privacy{
+    margin: 92px 0; 
+    color: gainsboro;
+}
+.create{
+    color: blue;
+}
+
